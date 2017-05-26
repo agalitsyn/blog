@@ -1,0 +1,30 @@
+baseurl = "https://agalitsyn.github.io"
+languageCode = "en"
+title = "agalityn personal page"
+theme = "hemingway"
+copyright = "&copy; 2017"
+disqusShortname = "shortname"
+googleAnalytics = "UA-41903000-4"
+publishDir = "docs"
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile", "python", "bash"]
+
+[[params.social]]
+url = "https://github.com/agalitsyn"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/anton_galitsyn"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "https://plus.google.com/u/0/+AntonGalitsyn"
+fa_icon = "fa-google-plus-official"
+
+[[params.social]]
+url = "mailto:anton.galitsyn@gmail.com"
+fa_icon = "fa-envelope"
