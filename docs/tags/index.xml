@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on agalityn personal page</title>
-    <link>https://agalitsyn.github.io/tags/</link>
+    <link>https://agalitsyn.github.io/blog/tags/</link>
     <description>Recent content in Tags on agalityn personal page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017</copyright>
     
-	<atom:link href="https://agalitsyn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://agalitsyn.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

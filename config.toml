@@ -1,4 +1,4 @@
-baseurl = "https://agalitsyn.github.io"
+baseurl = "https://agalitsyn.github.io/blog"
 languageCode = "en"
 title = "agalityn personal page"
 theme = "hemingway"
