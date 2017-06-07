@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>agalityn personal page</title>
+    <title>agalityn blog</title>
     <link>https://agalitsyn.github.io/blog/</link>
-    <description>Recent content on agalityn personal page</description>
+    <description>Recent content on agalityn blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2017</copyright>
@@ -13,12 +13,14 @@
     
     
     <item>
-      <title>initial</title>
+      <title>Introduction</title>
       <link>https://agalitsyn.github.io/blog/post/initial/</link>
       <pubDate>Fri, 26 May 2017 22:38:00 +0700</pubDate>
       
       <guid>https://agalitsyn.github.io/blog/post/initial/</guid>
-      <description></description>
+      <description>Hello, my name is Anton Galitsyn. I am software developer.
+Here I will post some public articles in English about my work, primarily about programming in golang. Also links to my other profiles, CV, talks, etc. will be in header.
+Thanks.</description>
     </item>
     
   </channel>
