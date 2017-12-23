@@ -1,6 +1,6 @@
 baseurl = "https://agalitsyn.github.io/blog"
 languageCode = "en"
-title = "agalityn blog"
+title = "agalitsyn blog"
 theme = "hemingway"
 copyright = "&copy; 2017"
 disqusShortname = "shortname"
