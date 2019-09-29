@@ -1,34 +1,58 @@
-baseurl = "https://agalitsyn.github.io/blog"
-languageCode = "en"
-title = "agalitsyn blog"
-theme = "hemingway"
-copyright = "&copy; 2017"
-disqusShortname = "shortname"
-googleAnalytics = "UA-41903000-4"
-publishDir = "docs"
+baseURL = "https://agalitsyn.github.io"
+languageCode = "ru-ru"
+title = "Сайт Антона Галицына"
+theme = "pulp"
+
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[taxonomies]
+  series = "series"
 
 [params]
+    author = "Your Name"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    description = """
+        Please write anything here.
+        Profiles, backgrounds, favorite things etc.
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
 
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile", "python", "bash"]
+[outputs]
+    section = ["JSON", "HTML"]
 
-[[params.social]]
-url = "https://github.com/agalitsyn"
-fa_icon = "fa-github"
+[[menu.main]]
+    identifier = "blog"
+    # name = "Blog" #If display text link, cancel comment out
+    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+    url = "/blog/"
+    weight = 10
 
-[[params.social]]
-url = "https://twitter.com/anton_galitsyn"
-fa_icon = "fa-twitter"
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/username"
+    weight = 20
 
-[[params.social]]
-url = "https://plus.google.com/u/0/+AntonGalitsyn"
-fa_icon = "fa-google-plus-official"
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/username"
+    weight = 30
 
-[[params.social]]
-url = "mailto:anton.galitsyn@gmail.com"
-fa_icon = "fa-envelope"
-
-[[params.social]]
-url = "https://agalitsyn.github.io/resume"
-fa_icon = "fa-user"
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:username@example.com"
+    weight = 40

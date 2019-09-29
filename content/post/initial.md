@@ -4,11 +4,5 @@ title = "Introduction"
 
 +++
 
-Hello, my name is Anton Galitsyn. I am software developer.
-
-Here I will post some public articles in English about my work,
-primarily about programming in golang. Also links to my other profiles, CV,
-talks, etc. will be in header.
-
-Thanks.
+Тестовый русский текст
 

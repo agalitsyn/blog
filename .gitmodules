@@ -1,4 +1,4 @@
-[submodule "themes/hemingway"]
-	path = themes/hemingway
-	url = https://github.com/tanksuzuki/hemingway.git
+[submodule "themes/pulp"]
+	path = themes/pulp
+	url = https://github.com/koirand/pulp.git
 	branch = master
