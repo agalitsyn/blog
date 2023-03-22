@@ -1,58 +1,46 @@
 baseURL = "https://agalitsyn.github.io"
+title = "Blog: Anton Galitsyn"
 languageCode = "ru-ru"
-title = "Сайт Антона Галицына"
-theme = "pulp"
+theme = "devise"
+relativeURLs = true
+enableEmoji = true
+googleAnalytics = ""
+enableRobotsTXT = true
+copyright = "&copy; Anton Galitsyn"
 
-canonifyurls = true
-hasCJKLanguage = true
-# pygmentsCodefences = true
-# pygmentsUseClasses = true
-# googleAnalytics = "{your tracking code}"
+# Main menu items
+# [menu]
+#   [[menu.main]]
+#     identifier = "posts"
+#     name = "Posts"
+#     title = "Posts"
+#     url = "/posts/"
+#     weight = -100
 
-[taxonomies]
-  series = "series"
 
+# Configuration Features
 [params]
-    author = "Your Name"
-    avatar = "avatar.jpg"
-    favicon = "favicon.ico"
-    description = """
-        Please write anything here.
-        Profiles, backgrounds, favorite things etc.
-    """
-    publicationYear = "2019"
-    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
-    # singlePageDateFormat = "January 2, 2006"
-    # custom_css = ["/css/custom.css"]
-    # custom_js = ["/js/custom.js"]
+  description = "Blog: Anton Galitsyn"      # Your meta description of the site
+  header_title = "Anton Galitsyn"                 # Your header title
+  header_subtitle = "Software Developer" # Your header subtitle
+  home_image = "/images/avatar.png"          # Path to header image starting from the static directory
+  recent_posts = 15                           # Max amount of recent posts to show
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#f8f9fa"
+    homeImageBorderColor = "#ffffff"
+    fontFamilyBase = "Helvetica Neue"        # First-choice font
+    fontColor = "#212529"
+#   [[params.social]]
+#     fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+#     href = "http://github.com/youruser"      # Link to associate with icon (http://, https://, mailto:)
+#   [[params.social]]
+#     fa_icon = "fab fa-linkedin-in fa-1x"
+#     href = ""
+#   [[params.social]]
+#     fa_icon = "fab fa-twitter fa-1x"
+#     href = ""
+#   [[params.social]]
+#     fa_icon = "fas fa-at fa-1x"
+#     href = ""
 
-[outputs]
-    section = ["JSON", "HTML"]
-
-[[menu.main]]
-    identifier = "blog"
-    # name = "Blog" #If display text link, cancel comment out
-    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
-    url = "/blog/"
-    weight = 10
-
-[[menu.main]]
-    identifier = "twitter"
-    # name = "Twitter"
-    pre = "<i class='fab fa-twitter fa-lg'></i>"
-    url = "https://twitter.com/username"
-    weight = 20
-
-[[menu.main]]
-    identifier = "github"
-    # name = "GitHub"
-    pre = "<i class='fab fa-github fa-lg'></i>"
-    url = "https://github.com/username"
-    weight = 30
-
-[[menu.main]]
-    identifier = "email"
-    # name = "Email"
-    pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:username@example.com"
-    weight = 40

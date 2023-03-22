@@ -6,8 +6,16 @@ build:
 
 .PHONY: dev
 dev:
-	hugo server -w
+	hugo server -w --buildDrafts
 
 .PHONY: start
-start:
+preview:
 	python3 -m http.server 8080 --bind localhost --directory $(BUILD_DIR)
+
+.PHONY: update-theme
+update-theme:
+	git submodule update --remote --rebase
+
+.PHONY: post
+post:
+	hugo new blog/new-post.md
